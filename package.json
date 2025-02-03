@@ -1,0 +1,25 @@
+{
+  "name": "nestjs_proj",
+  "version": "1.0.0",
+  "description": "A simple NestJS project",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nestjs/common": "^8.0.0",
+    "@nestjs/core": "^8.0.0",
+    "rxjs": "^7.0.0",
+    "reflect-metadata": "^0.1.13",
+    "zone.js": "^0.11.4"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^8.0.0",
+    "typescript": "^4.4.4",
+    "jest": "^27.0.0",
+    "@types/jest": "^27.0.0",
+    "ts-jest": "^27.0.0"
+  }
+}
